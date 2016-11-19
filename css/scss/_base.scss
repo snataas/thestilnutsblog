@@ -1,0 +1,68 @@
+body {
+  color:white;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+header,
+section,
+footer {
+  padding:30px 20px;
+}
+
+header {
+  background: #333;
+  padding:70px 3% 20px;
+
+  h1 {
+    margin-bottom:30px;
+  }
+
+}
+
+section {
+  max-width: 90%;
+  margin:auto;
+  background:#eee;
+  color:black;
+  min-height: 80vh;
+}
+
+footer {
+  background: #333;
+}
+
+aside{
+
+}
+
+header {
+  overflow:auto;
+  h1 {
+    float:left;
+  }
+  &:before{
+    float:left;
+    content: '';
+    background:url(img/nice_death.png) top left no-repeat;
+    height:100px;
+    width:100px;
+    background-size: contain;
+
+
+  }
+
+  nav {
+    ul {
+      li {
+        display: inline-block;
+        margin-left: 10px;
+      }
+    }
+  }
+
+}
+footer {
+  p {
+    margin:0 3%;
+  }
+}
